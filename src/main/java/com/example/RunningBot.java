@@ -8,6 +8,14 @@ import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
+/**
+ * Главный класс приложения, запускающий Telegram-бота.
+ *
+ * Класс RunningBot инициализирует контекст Spring и регистрирует экземпляр
+ * Telegram-бота в TelegramBotsApi. Это основной класс, с которого начинается
+ * выполнение приложения.
+ */
+
 @SpringBootApplication
 public class RunningBot {
 

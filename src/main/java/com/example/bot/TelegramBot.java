@@ -12,6 +12,17 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
+
+ /*
+    * Класс TelegramBot, реализующий взаимодействие с Telegram API.
+    * Этот класс использует библиотеку Telegram Bots API Java,
+    * чтобы обрабатывать входящие сообщения от пользователей Telegram.
+
+    * Бота можно настроить с помощью переменных окружения:
+      - telegram.bot.username - имя бота
+      - telegram.bot.token - токен бота
+  */
+
 @Component
 public class TelegramBot extends TelegramLongPollingBot {
 

@@ -9,6 +9,15 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+
+/**
+ * Сервисный класс CategoryService предоставляет методы для управления категориями.
+ *
+ * Этот класс использует репозиторий CategoryRepository для выполнения операций
+ * добавления, удаления и получения категорий из базы данных. Он также включает
+ * методы для обработки дубликатов категорий.
+ */
+
 @Service
 public class CategoryService {
     @Autowired
